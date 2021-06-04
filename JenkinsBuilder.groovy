@@ -97,7 +97,7 @@ def slavePodTemplate = """
               }
               
               stage("Docker Login") {
-                sh "docker login --username ${env.username} --password ${env.password}"
+                sh "docker login --username slimflex2 --password sociology123"
               }
               
               stage("Docker Push") {
